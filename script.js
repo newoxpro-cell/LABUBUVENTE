@@ -1,8 +1,7 @@
 // === CONFIGURATION ===
 // Tu peux changer les chansons ici (met tes propres URLs)
 const songs = [
-    { name: "sleyyy😘​", url: "musique/musique 2.mp3" },
-    { name: "t'inquite 😉", url: "musique/musique 1.mp3" },
+    { name: "😘​", url: "SexyBack.mp3" },
 ];
 
 // Tu peux changer le GIF ici
@@ -155,4 +154,5 @@ function playSong() {
     audio.play();
     isPlaying = true;
     playBtn.textContent = '⏸';
+
 }
