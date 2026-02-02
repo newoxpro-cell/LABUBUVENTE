@@ -5,7 +5,7 @@ const songs = [
 ];
 
 // Tu peux changer le GIF ici
-const celebrationGif = "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2JrODFwZmdnb2xvZWJvbGptbDYxeG93eGdlY2RyNmFtb2JzcDMzbCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SvJKSPxHuhDv0FVKXQ/giphy.gif";
+const celebrationGif = "KIRK.gif";
 
 // Messages quand on clique sur Non
 const rejectMessages = [
@@ -156,3 +156,4 @@ function playSong() {
     playBtn.textContent = '⏸';
 
 }
+
