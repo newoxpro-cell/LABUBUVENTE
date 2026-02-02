@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💕 Saint-Valentin 💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Floating hearts background -->
+    <div class="floating-hearts" id="floatingHearts"></div>
+
+    <!-- Envelope screen -->
+    <div class="screen" id="envelopeScreen">
+        <div class="envelope" id="envelope">
+            <div class="envelope-flap"></div>
+            <div class="envelope-body">
+                <div class="heart-seal">💌</div>
+            </div>
+        </div>
+        <p class="hint">Clique pour ouvrir...</p>
+    </div>
+
+    <!-- Question screen -->
+    <div class="screen hidden" id="questionScreen">
+        <h1 class="title">Veux-tu être ma Valentine ?</h1>
+        <div class="hearts-row">💕 💖 💗 💖 💕</div>
+        <div class="buttons">
+            <button class="btn-yes" id="btnYes">Oui ! 💕</button>
+            <button class="btn-no" id="btnNo">Non 🦧​</button>
+        </div>
+        <p class="message" id="message"></p>
+    </div>
+
+    <!-- Celebration screen -->
+    <div class="screen hidden" id="celebrationScreen">
+        <div class="falling-hearts" id="fallingHearts"></div>
+        <h1 class="celebration-title">avoue tu kiffes ☺️​</h1>
+        <div class="gif-container">
+            <img src="https://s6.ezgif.com/tmp/ezgif-6f28ba27a47f85f6.gif" alt="Celebration GIF" class="gif">
+        </div>
+        <p class="love-message">Je savais tu m'aimais trop tkt 😘​</p>
+        
+        <!-- Music player -->
+        <div class="music-player">
+            <p class="now-playing">🎵 Now Playing</p>
+            <p class="song-name" id="songName">Chanson romantique</p>
+            <div class="player-controls">
+                <button class="player-btn" id="prevBtn">⏮</button>
+                <button class="player-btn play-btn" id="playBtn">▶</button>
+                <button class="player-btn" id="nextBtn">⏭</button>
+            </div>
+        </div>
+        
+        <audio id="audio" loop></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
